@@ -3,7 +3,9 @@
     "name": "startbootstrap-bare",
     "version": "4.2.0",
     "scripts": {
-        "start": "gulp watch"
+        "start": "gulp watch",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "description": "A basic HTML starter template for Bootstrap",
     "keywords": [
@@ -14,7 +16,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/bare",
+    "homepage": "https://lelong534.github.io/video_website",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-bare/issues",
         "email": "feedback@startbootstrap.com"
